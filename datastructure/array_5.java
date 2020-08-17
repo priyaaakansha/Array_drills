@@ -23,12 +23,12 @@ public class array_5 {
 
             else
               {
-            	System.out.println("Invalid number less than 100 Enter again:");
+            	System.out.println("Invalid number, enter less than 100");
             	arr[i][j]=sc.nextInt();
               }
           }
         }
-		System.out.print("\nData you entered : \n");
+		System.out.print("\n Data you entered : \n");
 		for(int i=0; i<rows;i++)
         {            
           for(int j=0; j<col;j++)
